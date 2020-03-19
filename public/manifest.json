@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "Text URL Downloader",
+  "description": "Chrome extension for downloading from text urls.",
+  "version": "1.0",
+  "author": "Kishan Nareshpal Jadav <kishan_jadav@hotmail.com>",
+
+  "icons": {
+    "16": "res/images/icon-x16.png",
+    "48": "res/images/icon-x48.png",
+    "128": "res/images/icon-x128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "res/images/icon-x38.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["js/vendor.js", "js/background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "contextMenus",
+    "downloads",
+    "notifications",
+    "clipboardRead",
+    "<all_urls>"
+  ]
+}

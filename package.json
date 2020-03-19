@@ -1,0 +1,31 @@
+{
+  "name": "texturldownloader",
+  "version": "1.0.0",
+  "description": "A chrome extension that allows you to start downloads from text urls.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --config webpack/webpack.dev.js --watch",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "clean": "rimraf dist"
+  },
+  "author": "Kishan Jadav",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kishannareshpal/texturldownloader-chromeext"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.100",
+    "@types/jquery": "^3.3.33",
+    "copy-webpack-plugin": "^5.1.1",
+    "rimraf": "^3.0.2 ",
+    "ts-loader": "^6.2.1",
+    "typescript": "~3.8.3 ",
+    "webpack": "~4.42.0",
+    "webpack-cli": "~3.3.11",
+    "webpack-merge": "~4.2.2"
+  }
+}
