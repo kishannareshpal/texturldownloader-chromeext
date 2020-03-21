@@ -10,7 +10,7 @@ Or by simply right-clicking on any url text on any page and selecting the downlo
 <br><br><br>
 
 # Install it using the Chrome Web Store
-#### Currently unavailable.<br>Awaiting approval.
+#### [Text URL Downloader - Chrome Web Store](https://chrome.google.com/webstore/detail/glbffpiffonfokkgfheanhbnleofjldc/publish-accepted?authuser=0&hl=en)
 <br><br>
 
 
