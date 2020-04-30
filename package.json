@@ -15,7 +15,7 @@
     "url": "https://github.com/kishannareshpal/texturldownloader-chromeext"
   },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "minimist": "1.2.5",
